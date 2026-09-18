@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function NavBar({ view, setView }) {
   const links = [
     { id: "upload", label: "Upload" },
