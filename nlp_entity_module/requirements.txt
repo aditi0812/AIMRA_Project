@@ -1,0 +1,11 @@
+# Core NLP library. Pinned to a range known to work well with scispaCy 0.5.x
+spacy>=3.4.0,<3.8.0
+
+# scispaCy: biomedical extensions on top of spaCy
+scispacy>=0.5.3
+
+# NOTE: The en_ner_bc5cdr_md model itself is NOT a normal PyPI package.
+# It must be installed separately via direct URL - see README section
+# "Installation" or run:
+#
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_ner_bc5cdr_md-0.5.3.tar.gz
